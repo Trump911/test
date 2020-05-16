@@ -1,0 +1,23 @@
+{
+    "name": "lenovo/test",
+    "description": "my a test",
+    "type": "library",
+    "homepage": "https://github.com/Trump911/test",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "leilikai",
+            "email": "2838132019@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebTool\\": "src/"
+        }
+    }
+}
